@@ -1,0 +1,15 @@
+C:\Users\slava\Documents\Visual Studio 2022\Project\QA_Lab3\bin\Debug\net6.0\QA_Lab3.exe
+C:\Users\slava\Documents\Visual Studio 2022\Project\QA_Lab3\bin\Debug\net6.0\QA_Lab3.deps.json
+C:\Users\slava\Documents\Visual Studio 2022\Project\QA_Lab3\bin\Debug\net6.0\QA_Lab3.runtimeconfig.json
+C:\Users\slava\Documents\Visual Studio 2022\Project\QA_Lab3\bin\Debug\net6.0\QA_Lab3.dll
+C:\Users\slava\Documents\Visual Studio 2022\Project\QA_Lab3\bin\Debug\net6.0\QA_Lab3.pdb
+C:\Users\slava\Documents\Visual Studio 2022\Project\QA_Lab3\obj\Debug\net6.0\QA_Lab3.csproj.AssemblyReference.cache
+C:\Users\slava\Documents\Visual Studio 2022\Project\QA_Lab3\obj\Debug\net6.0\QA_Lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\slava\Documents\Visual Studio 2022\Project\QA_Lab3\obj\Debug\net6.0\QA_Lab3.AssemblyInfoInputs.cache
+C:\Users\slava\Documents\Visual Studio 2022\Project\QA_Lab3\obj\Debug\net6.0\QA_Lab3.AssemblyInfo.cs
+C:\Users\slava\Documents\Visual Studio 2022\Project\QA_Lab3\obj\Debug\net6.0\QA_Lab3.csproj.CoreCompileInputs.cache
+C:\Users\slava\Documents\Visual Studio 2022\Project\QA_Lab3\obj\Debug\net6.0\QA_Lab3.dll
+C:\Users\slava\Documents\Visual Studio 2022\Project\QA_Lab3\obj\Debug\net6.0\refint\QA_Lab3.dll
+C:\Users\slava\Documents\Visual Studio 2022\Project\QA_Lab3\obj\Debug\net6.0\QA_Lab3.pdb
+C:\Users\slava\Documents\Visual Studio 2022\Project\QA_Lab3\obj\Debug\net6.0\QA_Lab3.genruntimeconfig.cache
+C:\Users\slava\Documents\Visual Studio 2022\Project\QA_Lab3\obj\Debug\net6.0\ref\QA_Lab3.dll
