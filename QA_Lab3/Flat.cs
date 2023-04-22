@@ -10,7 +10,7 @@ namespace QA_Lab3
     /// <brief>Базовый класс "Комната"</brif>
     /// <details>Данный класс нужен для хранения и обработки информации об одной комнате</details>
     /// </summary>
-    internal class Room
+    public class Room
     {
         protected double area; // площадь
         protected int amount; // кол - во проживающих
@@ -123,7 +123,7 @@ namespace QA_Lab3
     /// <details>Содержит информацию о комната, проживающих в них и их площади.
     /// Также информацию об общей площади и средней площади на человека с учетом общей площади</details>
     /// </summary>
-    internal class Flat
+    public class Flat
     {
         private char[] name;
         private Room TypeR1 = new Room();
@@ -132,11 +132,11 @@ namespace QA_Lab3
         /// <summary>
         /// Конструктор Flat, принимает параметры типа Room и его производного
         /// </summary>
-        /// ![images] (C:\Users\slava\Downloads\room1.jpg)
-        /// ![images] (C:\Users\slava\Downloads\room2.jpg)
         /// <param name="nf">Номер квартиры</param>
         /// <param name="s1">площадь первой комнаты</param>
+        /// ![Image](C:/Users/slava/Downloads/room1.jpg)
         /// <param name="s2">площадь второй комнаты</param>
+        /// ![Image](C:/Users/slava/Downloads/room2.jpg)
         /// <param name="a1">общ кол-во проживающих 1 комнаты</param>
         /// <param name="a2">общ кол-во проживающих 2 комнаты</param>
         /// <param name="ad2">кол-во взрослых 2 комнаты</param>
