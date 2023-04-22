@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace QA_Lab3
 {
     /// <summary>
-    /// Базовый класс "Комната"
+    /// <brief>Базовый класс "Комната"</brif>
     /// <details>Данный класс нужен для хранения и обработки информации об одной комнате</details>
     /// </summary>
     internal class Room
@@ -57,11 +57,12 @@ namespace QA_Lab3
         }
     }
     /// <summary>
-    /// Производный класс "Проживающие"
+    /// <brief>Производный класс "Проживающие"</brief>
     /// <author>Korjagin_VU</author> 
     /// <version>1.9</version> 
+    /// <date>April 2023</date>
     /// <warning>Данный класс создан в учебных целях</warning> 
-    /// Обычный дочерний класс, который отнаследован от ранее созданного класса aeroflot
+    /// Обычный дочерний класс, который отнаследован от ранее созданного класса Room
     /// </summary>
     class Room_resident : Room
     {
@@ -110,16 +111,17 @@ namespace QA_Lab3
         /// </summary>
         /// <returns>amount - кол-во проживающих</returns>
         /// Формула для вычисления количества проживающих, при условии, что кол-во детей умножается на 2:
-        /// f$ amount = adult + child \times 2 @f$
+        /// \f$ amount = adult + child \times 2 \f$
+        /// 
         public int totalA()
         {
             return adult + child * 2;
         }
     }
     /// <summary>
-    /// Класс "Квартира"
-    /// Содержит информацию о комната, проживающих в них и их площади
-    /// <details>Также информацию об общей площади и средней площади на человека с учетом общей площади</details>
+    /// <brief>Класс "Квартира"</brief>
+    /// <details>Содержит информацию о комната, проживающих в них и их площади.
+    /// Также информацию об общей площади и средней площади на человека с учетом общей площади</details>
     /// </summary>
     internal class Flat
     {
@@ -130,11 +132,11 @@ namespace QA_Lab3
         /// <summary>
         /// Конструктор Flat, принимает параметры типа Room и его производного
         /// </summary>
+        /// ![images] (C:\Users\slava\Downloads\room1.jpg)
+        /// ![images] (C:\Users\slava\Downloads\room2.jpg)
         /// <param name="nf">Номер квартиры</param>
         /// <param name="s1">площадь первой комнаты</param>
-        /// ![Image](C:\Users\slava\Downloads\room1.jpg)
         /// <param name="s2">площадь второй комнаты</param>
-        /// ![Image](C:\Users\slava\Downloads\room2.jpg)
         /// <param name="a1">общ кол-во проживающих 1 комнаты</param>
         /// <param name="a2">общ кол-во проживающих 2 комнаты</param>
         /// <param name="ad2">кол-во взрослых 2 комнаты</param>
@@ -169,8 +171,8 @@ namespace QA_Lab3
         /// <returns>Площадь на человека с учетом площади доп помещений</returns>
         public double avrArea()
         {
-            double TotalArea = TypeR1.totalS() + TypeR2.totalS();  // общая площадь
-            int TotalAmount = TypeR1.totalA() + TypeR2.totalA();  // общее количество людей
+            double TotalArea = TypeR1.totalS() + TypeR2.totalS(); 
+            int TotalAmount = TypeR1.totalA() + TypeR2.totalA(); 
             return (TotalArea + TotalAreaDop) / TotalAmount;
         }
     }

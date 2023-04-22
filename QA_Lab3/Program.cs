@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace QA_Lab3
 {
+    /// <summary>
+    /// Класс исполнитель
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
